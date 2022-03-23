@@ -7,7 +7,7 @@ body {
 
 body::before {
     content: '';
-    background-image: url('/images/donut-background.jpeg');
+    background-image: url('images/donut-background.jpeg');
     opacity: 0.75;
     position: fixed;
     top: 0;
