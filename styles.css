@@ -17,6 +17,10 @@ body::before {
     z-index: -1;
 }
 
+main {
+    margin-top: 4rem;
+}
+
 section {
     display: flex;
     flex-wrap: wrap;
@@ -32,6 +36,14 @@ article~* {
     margin-left: 3rem;
 }
 
+h2 {
+    margin: 5rem auto 0;
+}
+
+img {
+    max-width: 25rem;
+}
+
 footer {
-    margin-top: 2rem;
+    margin: 2rem 0;
 }
