@@ -1,0 +1,18 @@
+body {
+    color: navy;
+    width: 85vw;
+    max-width: 68.75rem;
+    margin: auto;
+}
+
+body::before {
+    content: '';
+    background-image: url('/images/donut-background.jpeg');
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
